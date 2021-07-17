@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    
+}
+a{
+    text-decoration: none;
+}
+/*================ header section start =======================*/
+header{
+    width: 100%;
+    height: 85vh;
+    background-color: #2D25A0;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half-width{
+    width: 50%;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half-width h1{
+    max-width: 501px;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.button{
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #fff;
+}
+.fas{
+    padding-left: 5px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 3rem;
+}
+ /*======================= top player section start======================== */
+ .Top-player-section {
+    margin-bottom: 80px;
+}
+ main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .top-title{
+     width: 752px;
+     height: 174px;
+     text-align: center;
+     margin: auto;
+ }
+
+.players{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 24px;
+ }
+ .player{
+     width: 360px;
+    height: 495px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ }
+ .player p{
+     font-size: 16px;
+     color: #6C6C6C;
+ }
+ .player img{
+    width: 100%;
+ }
+
+ /*======================== highlights match section =====================*/
+ .Hilights-match{
+    margin-bottom: 60px;
+ }
+ .highlights{
+     display: grid;
+     grid-template-columns:repeat(2,1fr);
+ }
+ 
+.inner-highlight img{
+    height: 396px;
+    width: 533px;
+}
+.inner-highlight{
+    margin-left: 9%;
+    padding-left: 2%;
+}
+.inner-highlight h2 {
+    font-size: 38px;
+    line-height: 57px;
+}
+.inner-highlight p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 24px;
+    border: none;
+    background: #E02C6D;
+    color: #FFFFFF;
+}
+
+/* footer section start */
+footer{
+    text-align: center;
+    height: 213px;
+
+}
+.footer-logo img{
+    width:350px;
+}
+
+.social-media .fab{
+    font-size: 18px;
+    padding-right: 15px;
+}
+.text p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================== Media quary for moblie==================== */
+@media only screen and (max-width: 668px) {
+    .container{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .half-width,.half-width{
+        width: 91%;
+        margin-top: 5px;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .half-width h1{
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .button{
+        padding: 5px 10px;
+    }
+
+    /* top player section */
+    .Top-player-section .player {
+        width: auto;
+        height: auto;
+        margin: 0px 20px;
+    }
+    .top-title {
+        width: 100%;
+        height: auto;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .inner-highlight{
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+  }
